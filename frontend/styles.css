@@ -15,3 +15,13 @@ tr {
 tr:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+#select{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    
+}
+input{
+    font:black;
+}
+

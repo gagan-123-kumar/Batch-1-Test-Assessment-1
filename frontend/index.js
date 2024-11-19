@@ -147,3 +147,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error fetching data:', error);
     }
 });
+const btn=document.querySelector('#select');
+const in1=document.querySelector("#in1");
+const in2=document.querySelector("#in2");
+btn.addEventListener('click',()=>{
+    if(in1.value==null || in2==null){
+        alert("Please enter Roll no.")
+    }
+
+})
